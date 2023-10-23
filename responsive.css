@@ -1,0 +1,165 @@
+:root{
+  --cor-1: #F27405;
+  --cor-2: #F25C05;
+  --cor-3: #F29F05;
+  --cor-preta: #1C1A26;
+  --cor-branca: #F1F3F4;
+}
+
+ @media screen and (min-width:640px){
+    header nav{
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      gap: 30px;
+    }
+
+    nav .btn-cadastro{
+      margin-top: 0;
+    }
+
+    .personalize figcaption{
+      text-align: right;
+      font-size: 1.2rem;
+    }
+
+    footer h2, footer p{
+      text-align: center;
+    }
+
+    .link-footer a{
+      margin: auto;
+    }
+}
+
+@media screen and (min-width:768px){
+  .serviços{
+  margin: auto;
+  text-align: center;
+  background-color: rgba(22, 17, 11, 0.451);
+  padding: 3rem;
+  border-radius: 5px;
+  border-bottom: 2px solid var(--cor-branca);
+  width: 80%;
+}
+
+  .personalize{
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .personalize img{
+    width: 700px;
+  }
+
+  .personalize p{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width:1152px){
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav{
+    margin: 0;
+  }
+
+  header nav a{
+    font-size: 2rem;
+  }
+
+  header nav a:hover:not(.btn-cadastro){
+    font-size: 2.2rem;
+  }
+
+  .hero-banner{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .hero-banner img{
+    width: 500px;
+    margin-top: 0;
+  }
+
+  .hero-banner h2{
+    margin-top: 10rem;
+    width: 50%;
+    font-size: 4rem;
+  }
+
+  .serviços{
+    width: 70%;
+    font-size: 2rem;
+  }
+
+  .serviços img{
+    width: 400px;
+  }
+
+  .serviços p{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .personalize{
+    font-size: 2rem;
+  }
+
+  .personalize h2{
+    font-size: 4rem;
+  }
+
+  .personalize img{
+    width: 800px;
+  }
+
+  .personalize p{
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .personalize figcaption{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .planos{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    font-size: 2rem;
+    gap: 40px;
+  }
+
+  .planos div p{
+    font-size: 2rem;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer .sobre{
+    font-size: 3rem;
+  }
+
+  .sobre p{
+    font-size: 2rem;
+    max-width: 25rem;
+  }
+
+  .link-footer a{
+    font-size: 2rem;
+  }
+}
